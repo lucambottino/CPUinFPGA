@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pin_planner>
+	<pin_info>
+		<pin name="reset" source="Pin Planner" >
+		</pin>
+		<pin name="clk_1mhz" source="Pin Planner" >
+		</pin>
+		<pin name="in_clk" source="Pin Planner" >
+		</pin>
+		<pin name="in_data" source="Pin Planner" >
+		</pin>
+		<pin name="Q4" source="Pin Planner" >
+		</pin>
+		<pin name="clear" source="Pin Planner" >
+		</pin>
+		<pin name="clk" source="Pin Planner" >
+		</pin>
+		<pin name="clk_in" source="Pin Planner" >
+		</pin>
+		<pin name="QA" source="Pin Planner" >
+		</pin>
+		<pin name="QB" source="Pin Planner" >
+		</pin>
+		<pin name="QC" source="Pin Planner" >
+		</pin>
+	</pin_info>
+	<buses>
+	</buses>
+	<group_file_association>
+	</group_file_association>
+	<pin_planner_file_specifies>
+	</pin_planner_file_specifies>
+</pin_planner>

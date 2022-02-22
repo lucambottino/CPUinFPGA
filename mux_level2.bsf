@@ -1,0 +1,296 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2014 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus II License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 16 16 128 560)
+	(text "mux_level2" (rect 5 0 68 14)(font "Arial" (font_size 8)))
+	(text "inst" (rect 8 528 25 540)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "S0" (rect 0 0 15 14)(font "Arial" (font_size 8)))
+		(text "S0" (rect 21 27 36 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "S1" (rect 0 0 15 14)(font "Arial" (font_size 8)))
+		(text "S1" (rect 21 43 36 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "ASUM" (rect 0 0 35 14)(font "Arial" (font_size 8)))
+		(text "ASUM" (rect 21 59 56 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "AMULT" (rect 0 0 41 14)(font "Arial" (font_size 8)))
+		(text "AMULT" (rect 21 75 62 89)(font "Arial" (font_size 8)))
+		(line (pt 0 80)(pt 16 80))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "ADIV" (rect 0 0 29 14)(font "Arial" (font_size 8)))
+		(text "ADIV" (rect 21 91 50 105)(font "Arial" (font_size 8)))
+		(line (pt 0 96)(pt 16 96))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "ARAIZ" (rect 0 0 37 14)(font "Arial" (font_size 8)))
+		(text "ARAIZ" (rect 21 107 58 121)(font "Arial" (font_size 8)))
+		(line (pt 0 112)(pt 16 112))
+	)
+	(port
+		(pt 0 128)
+		(input)
+		(text "BSUM" (rect 0 0 34 14)(font "Arial" (font_size 8)))
+		(text "BSUM" (rect 21 123 55 137)(font "Arial" (font_size 8)))
+		(line (pt 0 128)(pt 16 128))
+	)
+	(port
+		(pt 0 144)
+		(input)
+		(text "BMULT" (rect 0 0 40 14)(font "Arial" (font_size 8)))
+		(text "BMULT" (rect 21 139 61 153)(font "Arial" (font_size 8)))
+		(line (pt 0 144)(pt 16 144))
+	)
+	(port
+		(pt 0 160)
+		(input)
+		(text "BDIV" (rect 0 0 28 14)(font "Arial" (font_size 8)))
+		(text "BDIV" (rect 21 155 49 169)(font "Arial" (font_size 8)))
+		(line (pt 0 160)(pt 16 160))
+	)
+	(port
+		(pt 0 176)
+		(input)
+		(text "BRAIZ" (rect 0 0 36 14)(font "Arial" (font_size 8)))
+		(text "BRAIZ" (rect 21 171 57 185)(font "Arial" (font_size 8)))
+		(line (pt 0 176)(pt 16 176))
+	)
+	(port
+		(pt 0 192)
+		(input)
+		(text "CSUM" (rect 0 0 34 14)(font "Arial" (font_size 8)))
+		(text "CSUM" (rect 21 187 55 201)(font "Arial" (font_size 8)))
+		(line (pt 0 192)(pt 16 192))
+	)
+	(port
+		(pt 0 208)
+		(input)
+		(text "CMULT" (rect 0 0 40 14)(font "Arial" (font_size 8)))
+		(text "CMULT" (rect 21 203 61 217)(font "Arial" (font_size 8)))
+		(line (pt 0 208)(pt 16 208))
+	)
+	(port
+		(pt 0 224)
+		(input)
+		(text "CDIV" (rect 0 0 28 14)(font "Arial" (font_size 8)))
+		(text "CDIV" (rect 21 219 49 233)(font "Arial" (font_size 8)))
+		(line (pt 0 224)(pt 16 224))
+	)
+	(port
+		(pt 0 240)
+		(input)
+		(text "CRAIZ" (rect 0 0 36 14)(font "Arial" (font_size 8)))
+		(text "CRAIZ" (rect 21 235 57 249)(font "Arial" (font_size 8)))
+		(line (pt 0 240)(pt 16 240))
+	)
+	(port
+		(pt 0 256)
+		(input)
+		(text "DSUM" (rect 0 0 34 14)(font "Arial" (font_size 8)))
+		(text "DSUM" (rect 21 251 55 265)(font "Arial" (font_size 8)))
+		(line (pt 0 256)(pt 16 256))
+	)
+	(port
+		(pt 0 272)
+		(input)
+		(text "DMULT" (rect 0 0 40 14)(font "Arial" (font_size 8)))
+		(text "DMULT" (rect 21 267 61 281)(font "Arial" (font_size 8)))
+		(line (pt 0 272)(pt 16 272))
+	)
+	(port
+		(pt 0 288)
+		(input)
+		(text "DDIV" (rect 0 0 28 14)(font "Arial" (font_size 8)))
+		(text "DDIV" (rect 21 283 49 297)(font "Arial" (font_size 8)))
+		(line (pt 0 288)(pt 16 288))
+	)
+	(port
+		(pt 0 304)
+		(input)
+		(text "DRAIZ" (rect 0 0 36 14)(font "Arial" (font_size 8)))
+		(text "DRAIZ" (rect 21 299 57 313)(font "Arial" (font_size 8)))
+		(line (pt 0 304)(pt 16 304))
+	)
+	(port
+		(pt 0 320)
+		(input)
+		(text "EMULT" (rect 0 0 38 14)(font "Arial" (font_size 8)))
+		(text "EMULT" (rect 21 315 59 329)(font "Arial" (font_size 8)))
+		(line (pt 0 320)(pt 16 320))
+	)
+	(port
+		(pt 0 336)
+		(input)
+		(text "EDIV" (rect 0 0 27 14)(font "Arial" (font_size 8)))
+		(text "EDIV" (rect 21 331 48 345)(font "Arial" (font_size 8)))
+		(line (pt 0 336)(pt 16 336))
+	)
+	(port
+		(pt 0 352)
+		(input)
+		(text "ERAIZ" (rect 0 0 35 14)(font "Arial" (font_size 8)))
+		(text "ERAIZ" (rect 21 347 56 361)(font "Arial" (font_size 8)))
+		(line (pt 0 352)(pt 16 352))
+	)
+	(port
+		(pt 0 368)
+		(input)
+		(text "FMULT" (rect 0 0 38 14)(font "Arial" (font_size 8)))
+		(text "FMULT" (rect 21 363 59 377)(font "Arial" (font_size 8)))
+		(line (pt 0 368)(pt 16 368))
+	)
+	(port
+		(pt 0 384)
+		(input)
+		(text "FDIV" (rect 0 0 27 14)(font "Arial" (font_size 8)))
+		(text "FDIV" (rect 21 379 48 393)(font "Arial" (font_size 8)))
+		(line (pt 0 384)(pt 16 384))
+	)
+	(port
+		(pt 0 400)
+		(input)
+		(text "FRAIZ" (rect 0 0 35 14)(font "Arial" (font_size 8)))
+		(text "FRAIZ" (rect 21 395 56 409)(font "Arial" (font_size 8)))
+		(line (pt 0 400)(pt 16 400))
+	)
+	(port
+		(pt 0 416)
+		(input)
+		(text "GMULT" (rect 0 0 41 14)(font "Arial" (font_size 8)))
+		(text "GMULT" (rect 21 411 62 425)(font "Arial" (font_size 8)))
+		(line (pt 0 416)(pt 16 416))
+	)
+	(port
+		(pt 0 432)
+		(input)
+		(text "GDIV" (rect 0 0 29 14)(font "Arial" (font_size 8)))
+		(text "GDIV" (rect 21 427 50 441)(font "Arial" (font_size 8)))
+		(line (pt 0 432)(pt 16 432))
+	)
+	(port
+		(pt 0 448)
+		(input)
+		(text "GRAIZ" (rect 0 0 37 14)(font "Arial" (font_size 8)))
+		(text "GRAIZ" (rect 21 443 58 457)(font "Arial" (font_size 8)))
+		(line (pt 0 448)(pt 16 448))
+	)
+	(port
+		(pt 0 464)
+		(input)
+		(text "HMULT" (rect 0 0 40 14)(font "Arial" (font_size 8)))
+		(text "HMULT" (rect 21 459 61 473)(font "Arial" (font_size 8)))
+		(line (pt 0 464)(pt 16 464))
+	)
+	(port
+		(pt 0 480)
+		(input)
+		(text "HDIV" (rect 0 0 28 14)(font "Arial" (font_size 8)))
+		(text "HDIV" (rect 21 475 49 489)(font "Arial" (font_size 8)))
+		(line (pt 0 480)(pt 16 480))
+	)
+	(port
+		(pt 0 496)
+		(input)
+		(text "HRAIZ" (rect 0 0 36 14)(font "Arial" (font_size 8)))
+		(text "HRAIZ" (rect 21 491 57 505)(font "Arial" (font_size 8)))
+		(line (pt 0 496)(pt 16 496))
+	)
+	(port
+		(pt 112 32)
+		(output)
+		(text "DA" (rect 0 0 17 14)(font "Arial" (font_size 8)))
+		(text "DA" (rect 74 27 91 41)(font "Arial" (font_size 8)))
+		(line (pt 112 32)(pt 96 32))
+	)
+	(port
+		(pt 112 48)
+		(output)
+		(text "DB" (rect 0 0 16 14)(font "Arial" (font_size 8)))
+		(text "DB" (rect 75 43 91 57)(font "Arial" (font_size 8)))
+		(line (pt 112 48)(pt 96 48))
+	)
+	(port
+		(pt 112 64)
+		(output)
+		(text "DC" (rect 0 0 16 14)(font "Arial" (font_size 8)))
+		(text "DC" (rect 75 59 91 73)(font "Arial" (font_size 8)))
+		(line (pt 112 64)(pt 96 64))
+	)
+	(port
+		(pt 112 80)
+		(output)
+		(text "DD" (rect 0 0 16 14)(font "Arial" (font_size 8)))
+		(text "DD" (rect 75 75 91 89)(font "Arial" (font_size 8)))
+		(line (pt 112 80)(pt 96 80))
+	)
+	(port
+		(pt 112 96)
+		(output)
+		(text "DE" (rect 0 0 15 14)(font "Arial" (font_size 8)))
+		(text "DE" (rect 76 91 91 105)(font "Arial" (font_size 8)))
+		(line (pt 112 96)(pt 96 96))
+	)
+	(port
+		(pt 112 112)
+		(output)
+		(text "DF" (rect 0 0 15 14)(font "Arial" (font_size 8)))
+		(text "DF" (rect 76 107 91 121)(font "Arial" (font_size 8)))
+		(line (pt 112 112)(pt 96 112))
+	)
+	(port
+		(pt 112 128)
+		(output)
+		(text "DG" (rect 0 0 17 14)(font "Arial" (font_size 8)))
+		(text "DG" (rect 74 123 91 137)(font "Arial" (font_size 8)))
+		(line (pt 112 128)(pt 96 128))
+	)
+	(port
+		(pt 112 144)
+		(output)
+		(text "DH" (rect 0 0 16 14)(font "Arial" (font_size 8)))
+		(text "DH" (rect 75 139 91 153)(font "Arial" (font_size 8)))
+		(line (pt 112 144)(pt 96 144))
+	)
+	(drawing
+		(rectangle (rect 16 16 96 528))
+	)
+)

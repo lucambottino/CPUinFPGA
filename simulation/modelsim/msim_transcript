@@ -1,0 +1,95 @@
+# Reading C:/altera/14.1/modelsim_ase/tcl/vsim/pref.tcl
+# do dff1_run_msim_gate_vhdl.do
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Model Technology ModelSim PE vmap 10.3c Lib Mapping Utility 2014.09 Sep 20 2014
+# vmap -modelsim_quiet work gate_work 
+# Copying C:/altera/14.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:/altera/14.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {dff1.vho}
+# Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 17:29:46 on Sep 11,2018
+# vcom -reportprogress 300 -93 -work work dff1.vho 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Loading package altera_lnsim_components
+# -- Loading package cyclonev_atom_pack
+# -- Loading package cyclonev_components
+# -- Compiling entity assincrono
+# -- Compiling architecture structure of assincrono
+# End time: 17:29:47 on Sep 11,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+vsim work.assincrono
+# vsim -gui -l msim_transcript -do "dff1_run_msim_gate_vhdl.do" 
+# Start time: 17:30:00 on Sep 11,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading altera.dffeas_pack
+# Loading altera.altera_primitives_components
+# Loading altera_lnsim.altera_lnsim_components
+# Loading cyclonev.cyclonev_atom_pack(body)
+# Loading cyclonev.cyclonev_components
+# Loading work.assincrono(structure)
+# Loading ieee.std_logic_arith(body)
+# Loading cyclonev.cyclonev_io_obuf(arch)
+# Loading cyclonev.cyclonev_io_ibuf(arch)
+# Loading cyclonev.cyclonev_lcell_comb(vital_lcell_comb)
+# Loading altera.dffeas(vital_dffeas)
+add wave -position insertpoint  \
+sim:/assincrono/QA \
+sim:/assincrono/R \
+sim:/assincrono/clk_in \
+sim:/assincrono/QB \
+sim:/assincrono/QC
+force -freeze sim:/assincrono/R 1 0
+force -freeze sim:/assincrono/clk_in 0 0
+run
+force -freeze sim:/assincrono/clk_in 1 0
+run
+force -freeze sim:/assincrono/clk_in 0 0
+run
+force -freeze sim:/assincrono/clk_in 1 0
+run
+force -freeze sim:/assincrono/clk_in 0 0
+run
+force -freeze sim:/assincrono/clk_in 1 0
+run
+force -freeze sim:/assincrono/clk_in 0 0
+run
+force -freeze sim:/assincrono/clk_in 1 0
+run
+force -freeze sim:/assincrono/clk_in 0 0
+run
+force -freeze sim:/assincrono/clk_in 1 0
+run
+force -freeze sim:/assincrono/clk_in 0 0
+run
+force -freeze sim:/assincrono/clk_in 1 0
+run
+force -freeze sim:/assincrono/clk_in 0 0
+run
+force -freeze sim:/assincrono/clk_in 1 0
+run
+force -freeze sim:/assincrono/clk_in 0 0
+run
+force -freeze sim:/assincrono/clk_in 1 0
+run
+force -freeze sim:/assincrono/clk_in 0 0
+run
+# End time: 17:34:11 on Sep 11,2018, Elapsed time: 0:04:11
+# Errors: 0, Warnings: 0
